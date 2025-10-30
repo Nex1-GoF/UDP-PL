@@ -7,14 +7,14 @@
 #include <arpa/inet.h> 
 #include <netinet/in.h> 
   
-#define PORT     8000 
+#define PORT     9001
 #define MAXLINE 1024 
   
 // Driver code 
 int main() { 
     int sockfd; 
     char buffer[MAXLINE]; 
-    const char *hello = "Hello from client"; 
+    const char *hello = "Hello from client1"; 
     struct sockaddr_in     servaddr; 
   
     // Creating socket file descriptor 
